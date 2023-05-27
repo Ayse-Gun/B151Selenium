@@ -86,6 +86,7 @@ Sayfayi tam sayfa (maximize) yapin  9.Browser’i kapatin
 7.Sayfayi fullscreen yapin
 8.Sayfanin konumunu ve boyutlarini fullscreen durumunda yazdirin
 9.Sayfayi kapatin
+
          */
 
 
