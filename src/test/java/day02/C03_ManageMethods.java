@@ -32,7 +32,8 @@ public class C03_ManageMethods {
 
         // Sayfayi Minimize yapalim
         driver.manage().window().minimize();
-        Thread.sleep(3000);
+        Thread.sleep(3000);  // Code'lari bekletir ,Javadan gelir
+        // ImplicitlyWait ise Seleniumdan gelur ve cok faydalidir ,web Elementlerin  bizim belirtecegimiz surede bekler max surede bekler  ,yosa Failed alabiliriz
 
         //Sayfayi FullScreen yapalim
         driver.manage().window().fullscreen();
