@@ -36,7 +36,7 @@ Cucumber Reports plugins: https://plugins.jenkins.io/cucumber-reports/
 
 - **resources:** this directory is for storing features package which contains test scenarios 
 
-  * OnlineShopping.feature: Created based on BDD by Gherkin syntax to write online shopping scenarios
+  * OnlineShopping.feature: Created based on BDD by Gherkin syntax to write online shopping scenarios. More about Gherkin & Cucumber can be found at https://cucumber.io/docs/reference 
 
 - **pages Package:** 
 ShopPage and CartPage classes placed under the pages package to store related locators and methods based on the test steps. Both page classes inherit ReusableMethods class by using extend keyword
@@ -63,8 +63,6 @@ ShopPage and CartPage classes placed under the pages package to store related lo
 **Run Some Sample Tests**
 
 Open terminal (MAC OSX) or command prompt / power shell (for windows OS) and navigate to the project directory type mvn verify or mvn test command to run features. With this command, it will invoke the default Chrome browser and will execute the tests.
-To run features on the specific browser to be used, mvn verify "-Dbrowser=browser_name" browser_name can be one of the following but make sure that the browser‚ driver file is present and specified in the system variable. -- firefox -- chrome -- ie -- safari etc. Please note that browser drivers are not included as part of this framework. The reason for not including is that Selenium browser driver versions are varies based on the browser version that you are using and also the Selenium server version.
-To run specific feature if you have multiple feature files use, mvn test -Dcucumber.options="classpath:features/my_first.feature"
 
 **Reporters**
 
